@@ -16,5 +16,13 @@
   <li>
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
+  <button (click)='getdata()'>Click Here</button>
+
+  <h1>Movie Details</h1>
+  <div *ngFor="let li of list">
+   <h2>Id: {{li.id}}</h2>
+   <h2>Title: {{li.title}}</h2>
+    <img src="{{li.poster}}" alt="" srcset="">
+  </div>
 </ul>
 

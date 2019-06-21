@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Shawshank",
+      "poster": "./assets/img/4.jpg"
+    },
+    {
+      "id": 2,
+      "title": "DarkKnight",
+      "poster": "./assets/img/5.jpg"
+    },
+    {
+      "id": 3,
+      "title": "God Father-2",
+      "poster": "./assets/img/6.jpg"
+    }
+  ],
+  "Favourites": [
+
+  ]
+}
